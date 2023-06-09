@@ -1,0 +1,320 @@
+html {
+    font-size: 16px; 
+    margin: 0;
+}
+
+header img  {
+    height: 130px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    position: fixed;
+    width: 99.095%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    height: 130px;
+    margin-bottom: 2.5rem;
+  }
+  
+  .navbar {
+    flex-grow: 1; /* Allow the navbar to grow and fill the remaining space */
+    margin-right: 2rem;
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align menu items to the right side */
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.85rem;
+    margin-right: 50px;
+  }
+  
+  .menu li {
+    margin-left: 4rem;
+  }
+  
+  .menu li a {
+    color: #fff;
+    font-family: 'Bebas Neue' , sans-serif;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    text-decoration: none;
+    list-style: circle;
+    color: #DD1923;
+  }
+
+  .bannerimg img {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+  }
+
+  /* Banner image and intro text */
+
+
+  .intro {
+    width: 100%;
+    font-family: 'Bebas Neue' , sans-serif;
+    font-size: 1.85rem;
+    text-align: center;
+  }
+
+  .intro-text {
+    margin-top: 125px;
+  }
+
+  .centered {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .centered1  {
+    font-size: 4rem;
+    color: white;
+    border: 5px solid #DD1923;
+    border-radius: 5px;
+    background-color: #DD1923;
+  }
+
+  .centered1 a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .centered1:hover {
+    background-color: black;
+    color: #DD1923;
+  }
+
+  .separator {
+    height: 45px;
+    margin-top: 60px;
+    background-color: black;
+  }
+
+  /* Guitars Section */
+
+  h1 {
+    font-family: 'Bebas Neue' , sans-serif;
+    text-align: center;
+    margin: 120px;
+    font-size: 90px;
+    text-decoration: overline;
+  }
+
+
+  .guitars {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-bottom: 60px;
+  }
+
+
+  #guitar {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  #guitar img {
+    flex: 1;
+    width: 550px;
+    height: auto;
+    margin: 0px;
+  }
+
+  #name {
+    width: 55%;
+    margin: 0 auto;
+    font-family: 'Bebas Neue' , sans-serif;
+    color: white;
+    border: 5px solid #DD1923;
+    border-radius: 5px;
+    background-color: #DD1923;
+  }
+
+  #guitar p {
+    text-align: center;
+    font-family: 'Bebas Neue' , sans-serif ;
+    font-size: 2.5rem;
+    margin-top: 70px;
+  }
+
+
+
+  #name a {
+    color: white;
+    text-decoration: none;
+  }
+
+  #name:hover {
+    background-color: black;
+    color: #DD1923;
+  }
+
+  /* Legends Section */
+
+  .separator2 {
+    display: flex;
+    height: 17px;
+    width: 650px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+    background-color: #DD1923;
+  }
+
+  .legends {
+    font-family: 'Bebas Neue' , sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+
+  #teamphoto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+  }
+
+
+  #teamphoto img {
+    width: 650px;
+    height: auto;
+  }
+
+  #teamphoto p {
+    font-family: 'Bebas Neue' , sans-serif;
+    font-size: 4rem;
+    text-decoration: overline;
+  }
+
+  /* Footer */
+
+  footer {
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h3 {
+    font-family: 'Bebas Neue' , sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-left: 75px;
+  }
+
+  .footerp {
+    font-size: 1.5rem;
+    font-family: 'Bebas Neue' , sans-serif;
+    margin-left: 75px;
+  }
+
+  .logo2 img {
+    width: auto;
+    height: 320px;
+    margin-right: 75px;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer2 {
+    font-family: 'Bebas Neue' , sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  /* tablet querie (900px) */
+  
+  
+@media only screen and (max-width: 900px) {
+  .menu {
+    display: flex;
+    justify-content: center;
+    font-size: 1.75rem;
+  }
+
+  .centered {
+    font-size: 2.50rem;
+  }
+
+  .separator {
+    height: 30px;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  .guitars {
+    margin: 0 auto;
+    display: block
+  }
+
+  #guitar img {
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .legends {
+    font-size: 2.50rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .menu {
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header img {
+    display: none;
+  }
+
+  #teamphoto img {
+    width: 400px;
+    height: auto;
+  }
+
+  .logo2 img {
+    display: none;
+  }
+
+}
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
